@@ -12,3 +12,21 @@ Este repositório representa uma Prova de Conceito (POC) desenvolvida como parte
 * Fixação de Conceitos de TDD: O projeto serve como uma oportunidade prática para consolidar os conceitos teóricos aprendidos sobre Test-Driven Development. Cada etapa do desenvolvimento, desde a criação dos testes até a implementação das funcionalidades, é uma oportunidade para aplicar e aprimorar os conhecimentos adquiridos.
 
 Este repositório será constantemente atualizado ao longo do meu processo de aprendizagem, e contribuições, sugestões ou feedbacks são sempre bem-vindos. Junte-se a mim nessa jornada de aprimoramento técnico e descoberta contínua!
+
+
+### Set up do projeto
+1. Iniciei com a criação do projeto NestJS:
+
+    ```
+    npx -- @nestjs/cli new nome_do_projeto
+    ```
+    **Observação:** usei o `npx` pois não eu não tinha o nestjs cli instalado globalmente na minha máquina.
+
+    Tive um problema ao criar o projeto Nest JS, pois estava demorando muito. Fiz o seguinte:
+
+    ```
+    npm cache clean --force
+    npm set registry https://registry.npmjs.org/
+    npx -- @nestjs/cli new backend
+    ```
+    Após esses passos, consegui criar normalmente o projeto Nest JS.
